@@ -1,0 +1,53 @@
+.galeria{
+    height: 600px;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div_izq{
+    width: 40%;
+    height: 500px;
+    border: solid 1px black;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.div_der{
+    width: 40%;
+    height: 500px;
+    border: solid 1px black;
+    background-color: aqua;
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div_int{
+    height: 30%;
+    width: 80%;
+    background-color: rgb(253, 195, 2);
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img_izq{
+    width: 30%;
+    height: 80%;
+    border: solid 1px black;
+    background-color: blueviolet;
+    
+
+}
+.img_der{
+    width: 150px;
+    height: 105px;
+    border: solid 1px black;
+    background-color: blueviolet;
+    margin: 10px;
+}
